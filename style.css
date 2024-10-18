@@ -1,0 +1,36 @@
+body{
+    background-color:#000;
+}
+.game-container{
+    background-color:#fff;
+    width:500px;
+    height:730px;
+    position:absolute;
+}
+.sky{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/089918d8-99ff-45de-a084-3fe85d0e3fcc/dg34rsu-29a3d144-dc3f-473e-a949-f73a4ba1ef7c.png/v1/fit/w_608,h_457,q_70,strp/flappy_bird_backdrop_by_lenaxux_dg34rsu-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDU3IiwicGF0aCI6IlwvZlwvMDg5OTE4ZDgtOTlmZi00NWRlLWEwODQtM2ZlODVkMGUzZmNjXC9kZzM0cnN1LTI5YTNkMTQ0LWRjM2YtNDczZS1hOTQ5LWY3M2E0YmExZWY3Yy5wbmciLCJ3aWR0aCI6Ijw9NjA4In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0._FI7nnUO3ZCIz23z4_juaIbbiEa_LQd1lX6MK-0iUEE);
+    width:100%;
+    height:580px;
+    position:absolute;
+}
+.ground{
+    background-color:#e2d795;
+    width:100%;
+    height:150px;
+    position:absolute;
+    top:580px;
+}
+.bird{
+    background-image: url('FlappyBird.png');
+    position:absolute;
+    width:60px;
+    height:45px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.block{ 
+    background-image:url('https://th.bing.com/th/id/R.2602a5f22e7835bea2895978e0838d1b?rik=o61Oh%2bxuaeW7Og&riu=http%3a%2f%2fpixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com%2fimage%2f4c7c6c37a714c33.png&ehk=OexS347dPCyyexB8efHqlPjmNCM2TPZnc9XGr%2fwArR4%3d&risl=&pid=ImgRaw&r=0');
+    width:60px;
+    height:300px; 
+    position:absolute;
+}
